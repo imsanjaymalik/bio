@@ -1,0 +1,39 @@
+.contact {
+    height: 100%;
+    padding-top: 35vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(
+        to right,
+        rgba(black,0.9),
+        rgba(black,0.9)),
+    url('../img/user1.webp') center top;
+    background-size: cover;
+
+    h2 {
+        font-size:3rem;
+        margin-bottom: 2rem;
+        text-transform: uppercase;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 700;
+    }
+
+    &__list {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+        font-size: 1.2rem;
+        text-align: center;
+
+        .text-secondary {
+            margin-top: 0.4rem;
+        }
+    }
+
+    .social-icons {
+        position: initial;
+        margin-top: 2rem;
+    }
+}
